@@ -1,6 +1,6 @@
 body{
     background-color:rgb(210,230,250);
-    font-family:"calibri";
+    font-family:"comic sans ms";
 }
 
 
@@ -21,9 +21,9 @@ body{
     height:40px;
     margin: 0 auto;
     background-color:mediumseagreen;
-    font-family:helvetica;
     font-variant:small-caps;
     font-weight:bold;
+    font-family:"comic sans ms";
     padding: 5px;
     border:2px solid black;
     border-radius:2vw;
@@ -67,7 +67,6 @@ li{
     border-radius:2vw;
     border:2px solid black;
     color:white;
-    font-family:helvetica;
     font-weight:bold;
     font-variant:small-caps ;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
