@@ -1,0 +1,74 @@
+body{
+    background-color:rgb(210,230,250);
+    font-family:"calibri";
+}
+
+
+#taskName{
+    width:70vw;
+    height:30px;
+    margin:5vh 10vw;
+    outline:none;
+    padding: 2vw;
+    border-radius:2vw;
+    border:solid 2px;
+}
+
+
+#addTask{
+    display:block ;
+    width:30vw;
+    height:40px;
+    margin: 0 auto;
+    background-color:mediumseagreen;
+    font-family:helvetica;
+    font-variant:small-caps;
+    font-weight:bold;
+    padding: 5px;
+    border:2px solid black;
+    border-radius:2vw;
+    outline:none;
+    color:white;
+    text-shadow: -1px -1px #000, 1px -1px 0 #000, -1px 1px #000, 1px 1px #000; 
+}
+
+
+.cross{
+    position:absolute;
+    right:3vw;
+    background-color:white;
+    border:solid 2px black;
+    border-radius:5px;
+    outline:none;
+    color:blue;
+    opacity: 0.5;
+}
+
+
+ul{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top:8vh;
+    padding:0;
+}
+
+
+li{
+    list-style-type:none;
+    position:relative;
+    overflow-wrap:break-word;
+    width: 70vw;
+    min-height: 20px;
+    background-color:rgb(150,120,255);
+    padding: 3vw;
+    margin: 3vw 0;
+    border-radius:2vw;
+    border:2px solid black;
+    color:white;
+    font-family:helvetica;
+    font-weight:bold;
+    font-variant:small-caps ;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
